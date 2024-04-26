@@ -1,0 +1,132 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: "montserrat" ;
+}
+.navbar {
+    color: white;
+    background-color: black;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    text-align: center;
+}
+.hero-section {
+    text-align: center;
+    margin-top: 120px;
+}
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #303030;
+    padding-bottom: 8px;
+}
+.title--xl {
+    font-size: 70px;
+}
+.title--lg {
+    font-size: 48px;
+}
+.title--md {
+    font-size: 24px;
+}
+.title--sm {
+    font-size: 16px;
+}
+.subtext {
+    font- size: 24px;
+    font-weight: bold;
+    color: #ababab;
+}
+.hero-section-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.hero-section--images img {
+    width: 284px;
+    height: 400px;
+    border-radius: 12px;
+    margin-top: 80px;
+}
+.destination {
+    margin: auto;
+    margin-top: 240px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.destination--steps {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.step {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.step--day {
+    width: 56px;
+    height: 56px;
+    background-color: #1d1f24;
+    color: #16a94a;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.destination--subtext {
+    color: #777777;
+    font-size: 12px;
+}
+.pricing {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 240px;
+}
+.pricing p,
+h2
+{ text-align: center;
+}
+.pricing--cards {
+    margin-top: 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.pricing--list{
+    margin-top: 28px;
+    color: #777777;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card {
+    max-width: 285px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pricing--price {
+    font-size: 32px;
+    color: #303030;
+    text-align: right;
+    margin-top: 20px;
+}
+.card:hover
+ border:{2px solid: #16a94a;}
+@media screen (max-width: 600px) 
+{
+}
+    body 
+}
+    
